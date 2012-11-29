@@ -1,0 +1,8 @@
+syntax: regexp
+^bin
+^gen
+^.classpath
+^local.properties
+^res
+^libs
+^cordova

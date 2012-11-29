@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport"
+	content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<link rel="stylesheet" href="css/jquery.mobile-1.2.0.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+<script src="js/jquery-1.8.2.js"></script>
+<script src="js/jquery.mobile-1.2.0.js"></script>
+<script src="js/jquery.countdown.js"></script>
+<title>Narrentag 2013 in Elzach</title>
+</head>
+<body>
+	<div id="index" data-role="page">
+		<div class="app">
+			<div id="counter" style="font-size: 3em"></div>
+			<a href="#busplana" data-transition="slidedown" data-role="button" data-icon="arrow-u" data-theme="a">Busfahrplan</a>
+			<a href="#locations" data-transition="slide" data-role="button" data-icon="arrow-r" data-theme="a">Lageplan</a>
+			<a href="#schedule" data-transition="slideup" data-role="button" data-icon="arrow-d" data-theme="a">Termine</a>
+		</div>
+	</div>
+	<div id="busplana" data-role="page">
+		<div data-role="header" data-position="fixed">
+			<h1>Busfahrplan</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#busplana" class="ui-btn-active" >Oberprechtal</a></li>
+					<li><a href="#busplanb">Biederbach</a></li>
+					<li><a href="#busplanc">Yach</a></li>
+					<li><a href="#buspland">Bleibach</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<table class="busplan-table">
+				<tbody>
+					<tr colspan="8" style="font-weight: bold;"><td>Samstag 12.01.2013</td></tr>
+					<tr>
+						<td class="firstcolumn">Oberprechtal Rössle</td>
+						<td>11:00</td>
+						<td>12:00</td>
+						<td>13:00</td>
+						<td>14:30</td>
+						<td>15:30</td>
+						<td>16:30</td>
+						<td>17:30</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Oberprechtal Post</td>
+						<td>11:05</td>
+						<td>12:05</td>
+						<td>13:05</td>
+						<td>14:35</td>
+						<td>15:35</td>
+						<td>16:35</td>
+						<td>17:35</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Prechtal Rathaus</td>
+						<td>11:15</td>
+						<td>12:15</td>
+						<td>13:15</td>
+						<td>14:45</td>
+						<td>15:45</td>
+						<td>16:45</td>
+						<td>17:45</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Prechtal Kreisverkehr</td>
+						<td>11:17</td>
+						<td>12:17</td>
+						<td>13:17</td>
+						<td>14:47</td>
+						<td>15:47</td>
+						<td>16:47</td>
+						<td>17:47</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Elzach Bahnhof</td>
+						<td>11:20</td>
+						<td>12:20</td>
+						<td>13:20</td>
+						<td>14:50</td>
+						<td>15:50</td>
+						<td>16:50</td>
+						<td>17:50</td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr>
+						<td class="firstcolumn">Elzach Bahnhof</td>
+						<td>15:00</td>
+						<td>16:00</td>
+						<td>17:00</td>
+						<td>23:30</td>
+						<td>00:30</td>
+						<td>01:30</td>
+						<td>02:30</td>
+						<td>03:30</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Prechtal Rathaus</td>
+						<td>15:07</td>
+						<td>16:07</td>
+						<td>17:07</td>
+						<td>23:37</td>
+						<td>00:37</td>
+						<td>01:37</td>
+						<td>02:37</td>
+						<td>03:37</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Oberprechtal Post</td>
+						<td>15:15</td>
+						<td>16:15</td>
+						<td>17:15</td>
+						<td>23:45</td>
+						<td>00:45</td>
+						<td>01:45</td>
+						<td>02:45</td>
+						<td>03:45</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Oberprechtal Rössle</td>
+						<td>15:20</td>
+						<td>16:20</td>
+						<td>17:20</td>
+						<td>23:50</td>
+						<td>00:50</td>
+						<td>01:50</td>
+						<td>02:50</td>
+						<td>03:50</td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr colspan="5" style="font-weight: bold;"><td>Sonntag 13.01.2013</td></tr>
+					<tr>
+						<td class="firstcolumn">Oberprechtal Rössle</td>
+						<td>08:30</td>
+						<td>09:30</td>
+						<td>11:30</td>
+						<td>12:30</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Oberprechtal Post</td>
+						<td>08:35</td>
+						<td>09:35</td>
+						<td>11:35</td>
+						<td>12:35</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Prechtal Rathaus</td>
+						<td>08:45</td>
+						<td>09:45</td>
+						<td>11:45</td>
+						<td>12:45</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Prechtal  Kreisverkehr</td>
+						<td>08:47</td>
+						<td>09:47</td>
+						<td>11:45</td>
+						<td>12:47</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Elzach Bahnhof</td>
+						<td>08:50</td>
+						<td>09:50</td>
+						<td>11:50</td>
+						<td>12:50</td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr>
+						<td class="firstcolumn">Elzach Bahnhof</td>
+						<td>12:00</td>
+						<td>17:30</td>
+						<td>18:30</td>
+						<td>19:30</td>
+						<td>20:30</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Prechtal Rathaus </td>
+						<td>12:07</td>
+						<td>17:37</td>
+						<td>18:37</td>
+						<td>19:37</td>
+						<td>20:37</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Oberprechtal Post </td>
+						<td>12:15</td>
+						<td>17:35</td>
+						<td>18:15</td>
+						<td>18:55</td>
+						<td>19:35</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">Oberprechtal Rössle</td>
+						<td>12:20</td>
+						<td>17:50</td>
+						<td>18:50</td>
+						<td>19:50</td>
+						<td>20:50</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<a href="index.html" data-transition="slideup" data-role="button"
+					data-icon="arrow-d">Zruck</a>
+		</div> 
+	</div>
+	<div id="busplanb" data-role="page">
+		<div data-role="content">
+			<div class="app">
+				
+			</div>
+		</div>
+	</div>
+	<div id="locations" data-role="page">
+		<div class="app">
+			<a href="index.html" data-transition="slide" data-role="button"
+				data-icon="arrow-r">Zruck</a>
+		</div>
+	</div>
+	<div id="schedule" data-role="page">
+		<div class="app">
+			<a href="index.html" data-transition="slidedown" data-role="button"
+				data-icon="arrow-u">Zruck</a>
+		</div>
+	</div>
+	<script type="text/javascript" src="cordova-2.2.0.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		app.initialize();
+		$(function() {
+			$('#counter').countdown({
+				timestamp : new Date("January 12, 2013 11:00:00")
+			});
+		});
+	</script>
+</body>
+</html>
