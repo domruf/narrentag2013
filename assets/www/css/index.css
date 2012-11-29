@@ -58,13 +58,25 @@ body {
     font-weight: bold;
     color: #000;
 }
-
-.ui-page-active {
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+.ui-btn-text{
+	font-size: 2em;
+}
+.ui-mobile-viewport {
     background:url(../img/plakat_photo.jpg) no-repeat center fixed; !important
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
 }
 
 .busplan-table {
